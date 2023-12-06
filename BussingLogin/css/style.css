@@ -4,6 +4,21 @@
 .vh-100 {
 	min-height: 100vh;
 }
-  .body {
-	background-color: #f80000;
+
+.Div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh; /* vh-100 is equivalent to height: 100vh */
+  }
+
+  .forms {
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adjust the shadow values as needed */
+	width: 450px; /* Set the width to 450 pixels */
+	padding: 15px; /* Set the padding to 15 pixels */
+  }
+  
+
+body {
+	background-color: #333131;
    }
